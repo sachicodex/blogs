@@ -367,10 +367,12 @@ body.nav-active { overflow: hidden; }
 }
 @media(max-width: 768px){
   .img-holder {
-    max-width: 1000px;
-    height: 360px;
+    width: fit-content;
+    height: fit-content;
+    aspect-ratio: 16 / 11;
     background-color: var(--bg-prussian-blue);
     overflow: hidden;
+    
   }
   
   .img-cover {
@@ -907,6 +909,13 @@ a.active {
 }
 
 .recent-post-card .card-title { margin-block: 15px 20px; }
+
+@media (max-width: 768px) {
+  .recent-post-card .card-title {
+    margin-top: -20px;
+  }
+
+}
 
 .recent-post-card .card-tag {
   gap: 15px;
