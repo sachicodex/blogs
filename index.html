@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
 
   <!-- MetaData -->
 
@@ -37,6 +37,7 @@
   <!-- css -->
 
   <link rel="stylesheet" href="css/All viewe blogs.css">
+  <link rel ="stylesheet" href="css/style2.css">
 
   <!--preload images -->
 
@@ -45,30 +46,26 @@
   <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
 </head>
 
-<body id="top">
+<body id="top" style = "overflow-x: hidden">
+  <div id="content154" style = "overflow-x: hidden">
+    <div class="body-entier">
+  
+  <div class="loading-page" id="loading-page">
 
-  <div id="loading-screen" class="loading-screen">
-    <svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
-        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
-        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
-      </linearGradient>
-      <linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
-        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
-      </linearGradient>
-    </defs>
-    <circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36" stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round" transform="rotate(-90,100,100)" />
-    <line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36" stroke-dasharray="1 165" stroke-linecap="round" />
-  </svg></div>
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+      
+      <path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <div class="name-container">
+        <div class="logo-name">WELCOME</div>
+    </div>
+</div>
+  
+  <!-- <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
     <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
-  </a>
-
+  </a> -->
   <!-- HEADER -->
-
+  <div class="cursor"></div>
   <header class="header" data-header>
     <div class="container">
       <a href="" class="logo">
@@ -172,6 +169,8 @@
 
      <!-- RECENT POST -->
 
+
+
       <section class="" id="recent" aria-labelledby="recent-label">
         <div class="container">
 
@@ -197,25 +196,21 @@
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/best-movie/index.html" class="link hover-2">Top 08 Must-Watch Sci-Fi Movies Released After 2010...
+                      <a href="Content/best-movie/index.html" class="title-text">Top 08 Must-Watch Sci-Fi Movies Released After 2010
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       Science fiction cinema has seen a renaissance in the 21st century, with filmmakers pushing the boundaries of imagination and technology to deliver mind-bending narratives. For all the sci-fi...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/best-movie/index.html" class="span hover-2">#Movie</a>
+                        <a href="Content/best-movie/index.html" class="hash">#Movie</a>
 
-                        <a href="Content/best-movie/index.html" class="span hover-2">#SiFi</a>
+                        <a href="Content/best-movie/index.html" class="hash">#SiFi</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
 
                   </div>
@@ -233,25 +228,21 @@
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/2025_technology/index.html" class="link hover-2">The Future of Artificial Intelligence - Trends and Predictions for 2025
+                      <a href="Content/2025_technology/index.html" class="title-text">The Future of Artificial Intelligence - Trends and Predictions for 2025
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       In the ever-accelerating realm of technology, there's one force that stands out, shaping the future like no other – Artificial Intelligence (AI). As we stand on the threshold of 2025, it's the...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/2025_technology/index.html" class="span hover-2">#Future</a>
+                        <a href="Content/2025_technology/index.html" class="hash">#Future</a>
 
-                        <a href="Content/2025_technology/index.html" class="span hover-2">#2025AI</a>
+                        <a href="Content/2025_technology/index.html" class="hash">#2025AI</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -269,25 +260,21 @@
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/sri_lankan_beautifull_places/index.html" class="link hover-2">Discovering the Natural Wonders of Sri Lanka
+                      <a href="Content/sri_lankan_beautifull_places/index.html" class="title-text">Discovering the Natural Wonders of Sri Lanka
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       Nestled in the heart of the Indian Ocean, the tear-shaped island of Sri Lanka beckons to travelers with its intoxicating blend of enchanting landscapes, centuries of rich history, and a vibrant...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/sri_lankan_beautifull_places/index.html" class="span hover-2"># Sri_Lanka</a>
+                        <a href="Content/sri_lankan_beautifull_places/index.html" class="hash"># Sri_Lanka</a>
 
-                        <a href="Content/sri_lankan_beautifull_places/index.html" class="span hover-2"># Travels</a>
+                        <a href="Content/sri_lankan_beautifull_places/index.html" class="hash"># Travels</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -305,25 +292,21 @@
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/5G_sri_lanka/index.html" class="link hover-2">5G Providers in Sri Lanka - A Comprehensive Overview of Next-Generation Connectivity
+                      <a href="Content/5G_sri_lanka/index.html" class="title-text">5G Providers in Sri Lanka - A Comprehensive Overview of Next-Generation Connectivity
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       In an era marked by digital transformation and rapid technological advancements, the introduction of 5G technology in Sri Lanka represents a pivotal moment in the nation's...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/5G_sri_lanka/index.html" class="span hover-2"># Technology</a>
+                        <a href="Content/5G_sri_lanka/index.html" class="hash"># Technology</a>
 
-                        <a href="Content/5G_sri_lanka/index.html" class="span hover-2"># Dialog</a>
+                        <a href="Content/5G_sri_lanka/index.html" class="hash"># Dialog</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -334,32 +317,28 @@
                 <div class="recent-post-card">
                   <a href="Content/us_deers/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/us_deer.jpg" width="100px" height="10px" loading="lazy"
+                    <img src="images/us_deer.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/us_deers/index.html" class="link hover-2">Exploring the Enchanted World of North American Deer
+                      <a href="Content/us_deers/index.html" class="title-text">Exploring the Enchanted World of North American Deer
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       Deer, those enchanting creatures from the Cervidae family, possess an incredible array of adaptations and characteristics that make them unique among hoofed mammals. With  approxi...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/us_deers/index.html" class="span hover-2"># Animales</a>
+                        <a href="Content/us_deers/index.html" class="hash"># Animales</a>
 
-                        <a href="Content/us_deers/index.html" class="span hover-2"># Deer</a>
+                        <a href="Content/us_deers/index.html" class="hash"># Deer</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -370,32 +349,28 @@
                 <div class="recent-post-card">
                   <a href="Content/most_spreed_cars/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/spreed_car.jpg" width="100px" height="10px" loading="lazy"
+                    <img src="images/spreed_car.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/most_spreed_cars/index.html" class="link hover-2">Top 09 Supercars Redefining Speed and Luxury in the World
+                      <a href="Content/most_spreed_cars/index.html" class="title-text">Top 09 Supercars Redefining Speed and Luxury in the World
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       Supercars have always held a special place in the hearts of automobile enthusiasts, offering a thrilling blend of speed, style, and cutting-edge technology. These high-performance...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/most_spreed_cars/index.html" class="span hover-2">#SuperCars</a>
+                        <a href="Content/most_spreed_cars/index.html" class="hash">#SuperCars</a>
 
-                        <a href="Content/most_spreed_cars/index.html" class="span hover-2">#FastCars</a>
+                        <a href="Content/most_spreed_cars/index.html" class="hash">#FastCars</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -406,32 +381,28 @@
                 <div class="recent-post-card">
                   <a href="Content/planets/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/planet.webp" width="100px" height="10px" loading="lazy"
+                    <img src="images/planet.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/planets/index.html" class="link hover-2">A Vision of Planetary Transformation in Our Solar System
+                      <a href="Content/planets/index.html" class="title-text">A Vision of Planetary Transformation in Our Solar System
                     </h3>
                     
-                    <p class="card-text">
+                    <p class="card-subtitle">
                       Purifying a planet, in a literal sense, involves cleansing it of any pollutants, contaminants, or harmful substances to make it more habitable for humans or other life forms. While the conc...
                     </p><br></a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/planets/index.html" class="span hover-2"># planets</a>
+                        <a href="Content/planets/index.html" class="hash"># planets</a>
 
-                        <a href="Content/planets/index.html" class="span hover-2"># SolarSystem</a>
+                        <a href="Content/planets/index.html" class="hash"># SolarSystem</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -442,7 +413,7 @@
                 <div class="recent-post-card">
                   <a href="Content/apple_visson_pro/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/apple_visson_pro.jpg" width="100px" height="10px" loading="lazy"
+                    <img src="images/apple_visson_pro.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
@@ -450,26 +421,22 @@
 
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/apple_visson_pro/index.html" class="link hover-2">A Glimpse into the Virtual Realm - Apple's Vision Pro VR Headset
+                      <a href="Content/apple_visson_pro/index.html" class="title-text">A Glimpse into the Virtual Realm - Apple's Vision Pro VR Headset
                     </h3>
                     
-                    <p class="card-text">
-                      In the ever-evolving landscape of technology, Apple is renowned for its ability to redefine the way we interact with the digital world. As each new product graces the market, it pushes the boundaries of innovation and design. The Apple Vision Pro, Apple's latest venture into the...
+                    <p class="card-subtitle">
+                      In the ever-evolving landscape of technology, Apple is renowned for its ability to redefine the way we interact with the digital world. As each new product graces the market, it pushes the boundaries of innovation...
                     </p><br>
                   </a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/apple_visson_pro/index.html" class="span hover-2">#Apple</a>
+                        <a href="Content/apple_visson_pro/index.html" class="hash">#Apple</a>
 
-                        <a href="Content/apple_visson_pro/index.html" class="span hover-2">#AppleVissonPro</a>
+                        <a href="Content/apple_visson_pro/index.html" class="hash">#AppleVissonPro</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -480,7 +447,7 @@
                 <div class="recent-post-card">
                   <a href="Content/smart_city/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/smart_city.jpg" width="100px" height="10000px" loading="lazy"
+                    <img src="images/smart_city.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
@@ -488,26 +455,22 @@
 
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/smart_city/index.html" class="link hover-2">The Transformative Influence of Technology on Cityscapes
+                      <a href="Content/smart_city/index.html" class="title-text">The Transformative Influence of Technology on Cityscapes
                     </h3>
                     
-                    <p class="card-text">
-                      In the ever-evolving tapestry of urban life, technology has emerged as a powerful brush, painting vibrant strokes across the cityscape. As we traverse the labyrinth of city streets, it's impossible to ignore the profound changes that technology has ushered into our metropolises. From smart ...
+                    <p class="card-subtitle">
+                      In the ever-evolving tapestry of urban life, technology has emerged as a powerful brush, painting vibrant strokes across the cityscape. As we traverse the labyrinth of city streets, it's impossible to ignore the...
                     </p><br>
                   </a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/smart_city/index.html" class="span hover-2">#SmartCity</a>
+                        <a href="Content/smart_city/index.html" class="hash">#SmartCity</a>
 
-                        <a href="Content/smart_city/index.html" class="span hover-2">#UrbanTech</a>
+                        <a href="Content/smart_city/index.html" class="hash">#UrbanTech</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -518,33 +481,29 @@
                 <div class="recent-post-card">
                   <a href="Content/eagle_king/index.html">
                   <figure class="card-banner img-holder" >
-                    <img src="images/eagle.webp" width="100px" height="10000px" loading="lazy"
+                    <img src="images/eagle.png" width="100px" height="10px" loading="lazy"
                       alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
                   </figure>
 
                   <div class="card-content">
 
                     <h3 class="headline headline-3 card-title">
-                      <a href="Content/eagle_king/index.html" class="link hover-2">Unveiling the Majestic Power and Majesty of the King of Birds
+                      <a href="Content/eagle_king/index.html" class="title-text">Unveiling the Majestic Power and Majesty of the King of Birds
                     </h3>
                     
-                    <p class="card-text">
-                      Eagles have occupied a revered and enduring place in the human imagination, symbolizing might, regality, and ferocity. Often hailed as the "king of birds," eagles transcend mere symbolism, as their profound meanings resonate in diverse cultures and traditions across...
+                    <p class="card-subtitle">
+                      Eagles have occupied a revered and enduring place in the human imagination, symbolizing might, regality, and ferocity. Often hailed as the "king of birds," eagles transcend mere symbolism, as their profound...
                     </p><br>
                   </a></a>
 
                     <div class="card-wrapper">
                       <div class="card-tag">
-                        <a href="Content/eagle_king/index.html" class="span hover-2">#EagleSymbolism</a>
+                        <a href="Content/eagle_king/index.html" class="hash">#EagleSymbolism</a>
 
-                        <a href="Content/eagle_king/index.html" class="span hover-2">#KingOfBirds</a>
+                        <a href="Content/eagle_king/index.html" class="hash">#KingOfBirds</a>
                       </div>
 
-                      <div class="wrapper">
-                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                        <span class="span">3 mins read</span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -559,68 +518,164 @@
     </article>
 
   </main>
+  <br><br><br><br><br><br><br><br
 
+
+  <!-- FOOTER -->
 
   <footer>
     <div class="row">
       <div class="col">
-      <img class="image246" src="images/Tab Logo/logo.png">
-      <p>Constructive feedback is crucial for growth. Be clear, specific, and balanced in your feedback.Embrace feedback for better results and success.</p>
+        <img class="image246" src="images/Tab Logo/logo.png">
+        <p>Constructive feedback is crucial for growth. Be clear, specific, and balanced in your feedback. Embrace feedback for better results and success.</p>
       </div>
       <div class="col1">
-      <h6>House</h6>
-      <p>Matale</p>
-      <p>Laggala-pallegama</p>
-      <p>Kandepitawala</p><br>
-      <h4>+94-764439530</h4>
-      <p class="email-id"><a href="hello.sachinthalakshan@gmail.com"><b>hello.sachinthalakshan@gmail.com</b></a></p>
+        <h2>House</h2>
+        <p class="footer-p">Matale</p>
+        <p>Laggala-pallegama</p>
+        <p>Kandepitawala</p><br>
+        <p class="number">+94-764439530</p>
+        <p class="email-id"><a href="hello.sachinthalakshan@gmail.com"><b>hello.sachinthalakshan@gmail.com</b></a>
+        </p>
       </div>
       <div class="col">
-      <h3>Links</h3>
-      <ul>
-        <li><a href="https://sachicodex.github.io">Home Page</a></li>
-        <li><a href="https://sachicodex.github.io/Blogs.html">Blog Posts</a></li>
-        <li><a href="https://api.whatsapp.com/send/?phone=94764439530&text=Hi+Sachintha+Lakshan%2C%0ACan+you+tell+me+your+new+information%3F&type=phone_number&app_absent=0">Contract us</a></li>
-        <li><a href="https://sachicodex.github.io/image_gallery">Our Gallery</a></li>
-        <li><a href="https://sachicodex.github.io/services/game">our Services</a></li>
-      </ul>
+        <h2>Links</h2>
+        <ul class="footer-links">
+          <li><a href="https://sachicodex.github.io">Home Page</a></li>
+
+          <li><a href="https://sachicodex.github.io/Blogs.html">Blog Posts</a></li>
+
+          <li><a
+              href="https://api.whatsapp.com/send/?phone=94764439530&text=Hi+Sachintha+Lakshan%2C%0ACan+you+tell+me+your+new+information%3F&type=phone_number&app_absent=0">Contract
+              us</a></li>
+
+          <li><a href="https://sachicodex.github.io/image_gallery">Our Gallery</a></li>
+
+          <li><a href="https://sachicodex.github.io/services/game">our Services</a></li>
+
+        </ul>
       </div>
       <div class="col">
-      <h3>Newsletter</h3>
-      <form>
-        <i class="fa-regular fa-envelope" style="color: hsla(199, 89%, 49%, 1);"></i>
-        <input type="email" placeholder="Enter your email id" required>
-        <button type="submit"><i class="fa-solid fa-arrow-right" style="color: hsla(199, 89%, 49%, 1);"></i></button>
-      </form>
-      <div class="social-icons">
-        <i class="fa-brands fa-youtube" style="color: hsla(199, 89%, 49%, 1);"></i>
-        <i class="fa-brands fa-facebook-f" style="color: hsla(199, 89%, 49%, 1)"></i>
-        <i class="fa-brands fa-whatsapp" style="color: hsla(199, 89%, 49%, 1)"></i>
-        <i class="fa-brands fa-tiktok" style="color: hsla(199, 89%, 49%, 1)"></i>
-      </div>
+
+        <h2 class="newsletter">Newsletter</h2>
+
+        <form>
+          <i class="fa-regular fa-envelope" style="color:Azure;"></i>
+          <input type="email" placeholder="Enter your email id" required>
+          <button type="submit"><i class="fa-solid fa-arrow-right"
+              style="color: Azure;;"></i></button>
+        </form>
+
+        <div class="social-icons">
+          <i class="fa-brands fa-youtube" style="color: Azure;;"></i>
+          <i class="fa-brands fa-facebook-f" style="color: Azure;"></i>
+          <i class="fa-brands fa-whatsapp" style="color: Azure;"></i>
+          <i class="fa-brands fa-tiktok" style="color: Azure;"></i>
+        </div>
       </div>
     </div>
+
     <hr>
     <p class="copyright">Sachintha Lakshan © 2023 - All Rights Reserved</p>
-    </footer>
-
+  </footer>
   <!--js -->
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
   <script src="js/script.js"></script>
-  <script>
-    window.addEventListener("load", function () {
-      const loadingScreen = document.getElementById("loading-screen");
-      loadingScreen.style.display = "none";
-    });
-  </script>
 
   <!-- ionicon link  -->
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!--Loading screen-->
+
+        <script>
+          function hideLoader() {
+              const loader = document.querySelector('.loading-page');
+              setTimeout(function () {
+                  loader.style.display = 'none';
+              }, 5000);
+          }
+          window.onload = hideLoader;
+      </script>
+      <script>
+        // Select the cursor element
+  const cursor = document.querySelector(".cursor");
+  
+  // Function to handle mouse movement
+  document.addEventListener("mousemove", (e) => {
+    cursor.style.left = `${e.clientX}px`;
+    cursor.style.top = `${e.clientY}px`;
+    cursor.style.transform = "scale(1.2)"; // Slightly increase the size on move
+    cursor.style.opacity = "1"; // Ensure cursor is visible
+  });
+  
+  // Function to handle mouse down
+  document.addEventListener("mousedown", () => {
+    cursor.style.transform = "scale(0.8)"; // Shrink cursor on click
+  });
+  
+  // Function to handle mouse up
+  document.addEventListener("mouseup", () => {
+    cursor.style.transform = "scale(1.2)"; // Restore cursor size on release
+  });
+  
+  // List of elements to change cursor color on hover
+  const hoverElements = document.querySelectorAll(
+    "button, a, li, input, textarea, select, .profile, .about-text h5, .fa-brands"
+  );
+  
+  // Function to handle mouse enter
+  hoverElements.forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      cursor.classList.add("hovered"); // Add class on hover
+    });
+  
+    el.addEventListener("mouseleave", () => {
+      cursor.classList.remove("hovered"); // Remove class when not hovering
+    });
+  });
+  
+  // Function to handle mouse leaving the window
+  document.addEventListener("mouseleave", () => {
+    cursor.style.opacity = "0"; // Hide the cursor when it leaves the window
+  });
+  
+  // Function to handle mouse entering the window
+  document.addEventListener("mouseenter", () => {
+    cursor.style.opacity = "1"; // Show the cursor when it enters the window
+  });
+  
+      </script>
+      
+      <script>
+        (function (w, d, s, o, f, js, fjs) {
+                w[o] = w[o] || function () {
+                    (w[o].q = w[o].q || []).push(arguments) };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = o; js.src = f; js.async = 1;
+                fjs.parentNode.insertBefore(js, fjs) }
+            (window, document, 'script', 'nw', './Home Pages/js/chat-bot.js'));
+                nw('init', {
+                    apiKey: '2ace2d6c-a571-4ec7-9540-b0a2e62e3098',
+                    serviceBaseUrl: 'https://api.norby.io',
+                    lang: 'en',
+                    languageList: ['EN','RU','EE','IT','FR','DE','UA','ES','FI','SV','DA','NO','PL','PT','TR','ZH','JA'],
+                    mainColor: '#000000',
+                    popupBotAvatarColor: '#000000',
+                    multichat: false,
+                    botName: 'Sachintha Lakshan',
+                    imageTransferEnabled: true,
+                    side: 'right',
+                    marginSideDesktop: 80,
+                    marginBottomDesktop: 48,
+                    marginSideMobile: 16,
+                    marginBottomMobile: 16
+                });
+            </script>
   
 </body>
 
